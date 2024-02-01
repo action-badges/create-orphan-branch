@@ -2,6 +2,8 @@
 
 set -euo pipefail
 
+# mark workspace dir as 'safe'
+git config --system --add safe.directory '/github/workspace'
 
 # validate
 [ -z "$1" ] && echo "ERROR: branch-name is a required input" && exit 1
