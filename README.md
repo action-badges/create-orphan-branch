@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Create Orphan Branch
-        uses: action-badges/create-orphan-branch@0.1.0
+        uses: action-badges/create-orphan-branch@0.1.1
         with:
           branch-name: badges
 ```
